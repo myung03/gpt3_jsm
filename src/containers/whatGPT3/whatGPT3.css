@@ -25,9 +25,6 @@
     display: flex;
 }
 
-.gpt3__whatgpt3-feature .gpt3__features-container__feature {
-    margin: 0;
-}
 
 
 .gpt3__whatgpt3-feature .gpt3__features-container__feature-text {
@@ -74,6 +71,7 @@
     display: unset;
     flex-direction: column;
 }
+
 
 .gpt3__whatgpt3-container .gpt3__features-container__feature-text {
     margin-top: 1.5rem;
