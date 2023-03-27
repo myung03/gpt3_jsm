@@ -4,14 +4,14 @@ import gpt3Logo from '../../assets/logo.svg';
 
 const Footer = () => {
   return (
-    <div className="gpt3__footers section__padding">
+    <div className="gpt3__footer section__padding">
       <div className="gpt3__footer-heading">
         <h1 className="gradient__text">
           Be the first to step into the future. </h1>
       </div>
 
       <div className="gpt3__footer-btn">
-        <p>Request Early Access</p>
+        <button>Request Early Access</button>
       </div>
 
       <div className="gpt3__footer-links">
@@ -19,7 +19,6 @@ const Footer = () => {
           <img src={gpt3Logo} alt="gpt3 logo" />
           <p>34090 Crescent View, OpenAi Canada, V1P 9M0</p>
         </div>
-      </div>
       <div className="gpt3__footer-links-div">
         <h4>Links</h4>
         <p>Overons</p>
@@ -39,8 +38,9 @@ const Footer = () => {
         <p>085-132567 Media</p>
         <p>info@payme.net</p>
       </div>
+      </div>
 
-      <div className="gpt3_footer-copyright">
+      <div className="gpt3__footer-copyright">
         <p>&copy; GPT-3. All rights reserved.</p>
       </div>
     </div>
